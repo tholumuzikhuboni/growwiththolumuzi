@@ -7,9 +7,6 @@
  */
 
 
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -1452,6 +1449,38 @@ body {
    * BLOG
    */
 
+  .google-partner {
+  background-color: var(--ghost-white);
+  padding-block: var(--section-padding);
+}
+
+.google-partner .google-partner-content {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.google-partner-card {
+  text-align: center;
+}
+
+.google-partner-card .img-cover {
+  max-width: 200px;
+  margin-inline: auto;
+}
+
+.google-partner-details p {
+  font-size: var(--fs-7);
+  line-height: 1.75;
+  color: var(--slate-gray);
+  margin-bottom: 20px;
+}
+
+.google-partner-details .btn {
+  display: inline-block;
+  text-align: center;
+  }
   .blog-list { column-gap: 35px; }
 
   .blog-card.large {
